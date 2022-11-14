@@ -1,0 +1,28 @@
+#game {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#game div {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: blue;
+  overflow: hidden;
+  color: yellow;
+}
+body {
+  background-color: rgb(18, 21, 24);
+  color: white;
+  text-align: center;
+}
+.hideGame {
+  display: none !important;
+}
+img {
+  max-height: 100%;
+  overflow: hidden;
+}
